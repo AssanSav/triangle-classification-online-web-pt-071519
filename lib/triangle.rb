@@ -1,3 +1,1 @@
-class Triangle
-  # write code here
-end
+triangle-classification-online-web-pt-071519
