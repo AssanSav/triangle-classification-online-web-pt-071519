@@ -17,3 +17,9 @@ class Triangle
       :isosceles
     elsif @a != @b && @b != @c && @a != @c 
       :scalene
+    end
+  end
+  
+  class TriangleError < StandardError 
+end
+end
