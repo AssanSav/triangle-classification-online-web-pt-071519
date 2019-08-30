@@ -1,1 +1,15 @@
-triangle-classification-online-web-pt-071519
+require 'pry'
+
+class Triangle 
+  
+  def initialize(a, b, c)
+    @a = a 
+    @b = b 
+    @c = c 
+  end
+  
+  def kind 
+    if @a + @b <= @c || @a + @c <= @b || @b + @c <= @a || @a <= 0 || @b <= 0 || @c <= 0 
+    raise TriangleError 
+    elsif @a == @b && @a == @c 
+      
