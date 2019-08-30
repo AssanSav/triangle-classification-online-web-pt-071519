@@ -16,4 +16,4 @@ class Triangle
     elsif @a == @b || @b == @c || @a == @c 
       :isosceles
     elsif @a != @b && @b != @c && @a != @c 
-      
+      :scalene
